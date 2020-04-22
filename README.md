@@ -1,2 +1,2 @@
-# Projetos C
- Códigos em C++
+# Projetos C++
+ Códigos escritos durante meu processo de aprendizagem da linguagem
