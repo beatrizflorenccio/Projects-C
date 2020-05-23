@@ -15,7 +15,7 @@ int main() {
     //cout significa console output. É o DOS. 
     //Operador de inserção é <<
     cout << "Hello World!\n"; //Objeto cout deve receber a frase. 
-    system("pause"); //Pausa para que a janela não feche rapidamente
+     //Pausa para que a janela não feche rapidamente
     return 0; //a função tem que retornar algo
     
 
