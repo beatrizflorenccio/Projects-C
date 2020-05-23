@@ -1,0 +1,14 @@
+Módulo 01 - Estruturas básicas
+Aula 01
+
+Mostrando coisas na tela
+
+\n nova linha
+\t tabulação
+\b backspace
+\r retorno
+\\ barra
+\" aspas
+\? interrogação
+\a beep
+%% porcentagem
