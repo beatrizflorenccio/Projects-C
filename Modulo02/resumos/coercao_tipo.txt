@@ -1,0 +1,9 @@
+Maria Beatriz
+Módulo 02 - Aula de coerção de tipo
+
+TYPECAST
+- forçar um determinado tipo
+
+int a = 5;
+int b = 2;
+float r = (float) a/b; //coerção de tipo. Nessa expressão a variável a será considerada como do tipo float.
