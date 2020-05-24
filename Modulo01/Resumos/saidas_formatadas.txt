@@ -1,0 +1,33 @@
+Maria Beatriz
+Módulo 01 - Aula de saída formatada
+
+1. Strings de formatação
+1.1. Números do tipo int
+- %d ou %i
+
+1.2. Números do tipo float ou double
+- %f
+
+1.3. Única letra
+- %c
+
+1.4. Cadeia de caracteres
+- %s
+
+1.5. Algarismo neperiano
+- %e
+
+1.6. Para short int
+- %hd
+
+1.7. Para long int
+- %ld
+
+1.8. Para unsigned short
+- %hu
+
+1.9. Para unsigned
+- %u
+
+1.9. Para unsigned log
+- %lu
