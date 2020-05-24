@@ -1,0 +1,50 @@
+Maria Beatriz
+Módulo 02 - Aula de operadores aritméticas
+
+1. ADIÇÃO +
+-> +5 //Aqui o + é um operador unário
+-> 5 + 2 //Aqui o + é um operador binário, pois se refere à soma dos dois
+
+2. SUBSTRAÇÃO -
+-> -5 //Aqui o - é um operador unário
+-> 5 - 2 //Aqui o - é um operador binário, pois se refere à subtração dos dois
+
+3. MULTIPLICAÇÃO *
+-> *
+
+4. DIVISÃO /
+-> /
+-> Dados inteiros: será feita uma divisão inteira
+-> Dados reais: será feita uma divisão real
+
+EXEMPLO1:
+int a = 7;
+int b = 2;
+float r = 7/2;
+Nesse caso, os dados são inteiros, então será feita uma divisão inteira, ou seja, sem considerar o "resto"/"módulo" da divisão. Sendo assim, variável r receberia 3 e não 3,5.
+
+EXEMPLO2:
+float a = 7;
+int b = 2;
+float r = 7/2;
+Nesse caso, um dos dados é flutuante, então será feita uma divisão real. A variável r receberia 3,5.
+
+OU
+
+float a = 7;
+float b = 2;
+float r = 7/2;
+Nesse caso, os dois dados são flutuantes, então será feita uma divisão real. A variável r receberia 3,5.
+
+
+5. MÓDULO OU RESTO %
+-> Busca o resto da divisão
+-> 7%2 seria 1
+
+
+ATENÇÃO: A LINGUAGEM C SEGUE A MESMA ORDEM DE PRECEDÊNCIA DA MATEMÁTICA, não se esqueça.
+
+1° ()
+2° +- unário
+3° */%
+4° +- binário
