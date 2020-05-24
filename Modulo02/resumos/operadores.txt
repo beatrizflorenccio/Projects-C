@@ -1,0 +1,15 @@
+Maria Beatriz 
+Módulo 02 - Aula de operadores 
+
+Nesse módulo veremos:
+
+1. Operadores Aritméticos
+2. Operadores de Casting
+- conversões
+
+3. Operadores de Atribuição
+4. Operadores de Incremento e Decremento
+5. Operadores Relacionais
+6. Operadores Lógicos
+7. Operadores Bitwise
+
