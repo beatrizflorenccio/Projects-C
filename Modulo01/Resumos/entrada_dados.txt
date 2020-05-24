@@ -1,0 +1,37 @@
+Maria Beatriz
+Módulo 01 - Aula de entrada de dados
+
+LEITURA DE DADOS
+- função interna do standard I/O
+- Pega o buffer do teclado e jooga numa variável e você tem que dizer o tipo dessa variável.
+- scanf("string de formatação/tipo da variável", endereço da variável que vai receber esses dados);
+- scanf("%d", &num); //Tem que colocar o & para acessar o vetor
+- scanf("%f", &med); //Tem que colocar o & para acessar o vetor
+- O que o scanf() ler será guardado no endereço da variável
+
+LEITURA DE NUMS
+- Usa o scanf() mesmo
+
+LEITURA DE UM CARACTERE
+
+Pode ser que tenha de limpar o buffer.
+- fflush(stdin); //limpa a entrada padrão
+
+Existe outra função para ler somente caracteres: getchar();
+- char resp;
+- resp = getchar();
+- Também precisa do fflush(stdin);
+
+
+LEITURA DE STRINGS
+
+char nome[30];
+scanf("%s", nome); //padrão: sem o &
+
+Quando eu uso o scanf para ler strings, ele não aceita. Ele corta.
+
+Existe outra função para ler somente strings: gets();
+- não precisa de fflush(stdin);
+
+char nome[30];
+gets(nome);

@@ -1,0 +1,29 @@
+Maria Beatriz
+Módulo 01 - Aula de Constantes
+
+A estrutura de um computador é baseada em entrada, processamento e saída. O armazenamento são espaços na memória que podem ser ocupados por valores. Esses valores podem ser preenchidos por variáveis ou constantes.
+
+As variáveis, como o próprio nome já diz, são variáveis. Seu valor pode mudar ao longo do código.
+As constantes não podem mudar ao longo do código, elas possuem o mesmo valor do início ao fim. 
+
+Tanto a variável quanto a constante possuem um tipo, um nome e um valor.
+
+NA DECLARAÇÃO DE CONSTANTES, NORMALMENTE UTILIZAMOS SOMENTE LETRAS MAIÚSCULAS.
+Dica: variável em minúscula e constante em maiúscula.
+
+
+1.DECLARANDO UMA CONSTANTE
+
+1.1.PRIMEIRA MANEIRA: COLOCA UMA DIRETIVA
+- Nas primeiras linhas do programa
+- #define nome valor;
+- #define MAI 21;
+- É uma diretiva de pré-processamento
+- O valor é substituído antes da compilação
+
+1.2.SEGUNDA MANEIRA: PALAVRA RESERVADA const
+- cons tipo nome = valor;
+- const int MAI = 21;
+- É uma palavra reservada do C
+- A constante existe na memória
+- É possível definir o tipo primitivo da constante

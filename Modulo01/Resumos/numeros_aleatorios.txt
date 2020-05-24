@@ -1,0 +1,20 @@
+Maria Beatriz
+Módulo 01 - Aula de números aleatórios
+
+Própria máquina gera um número aleatório. "Randomiza" um número.
+Para isso precisamos da biblioteca stdlib.h para usarmos a função rand()
+
+Código exemplo:
+
+#import <stdio.h>
+#import <stdlib.h>
+#import <time.h>
+
+void main() {
+	srand(time(NULL)); //Start rand
+	int n = rand(); //Números muito grandes
+
+	n = rand() % 10; //Gera um número entre 0 e 9 (próxima aula veremos sobre os operadores)
+	printf("Gerei %d", n);
+	n = rand() % 10 + 1; //Gera entre 1 e 10
+	n = rand() % 50 + 1; //Gera entre 1 e 50

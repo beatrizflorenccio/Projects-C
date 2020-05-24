@@ -1,0 +1,23 @@
+Maria Beatriz
+Módulo 01 - Aula de Variáveis
+
+Toda variável possui
+- nome (ex.: idadade, nome...)
+- tipo (ex.: int, char...)
+- valor (ex.: 1, zé)
+
+Toda variável deve ser declarada. Exemplo:
+
+unsigned int idade = 18;
+- nome: idade
+- tipo: int
+- valor: 18
+Idade é um valor inteiro sem sinal que está recebendo 18
+
+Duas maneiras de declarar uma cadeia:
+- char nome[] = "Zé"; //Cadeia de caracteres
+- char *nome = "Ana"; //Cadeia de caracteres
+
+float media = 9.5;
+
+

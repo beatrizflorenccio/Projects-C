@@ -1,0 +1,12 @@
+Maria Beatriz
+Módulo 01 - Aula de variáveis
+
+REGRAS DA LINGUAGEM C
+
+- Toda variávei deve começar com uma letra
+- Maiúsculas e minúsculas fazem diferanças
+- Só usa letras, números e underline
+- Nada de acentos
+- Não pode conter espaços
+- Não pode ter símbolos (somente underline)
+- Não pode ser uma palavra reservada
