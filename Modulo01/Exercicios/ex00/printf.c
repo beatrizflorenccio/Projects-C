@@ -3,5 +3,5 @@
 
 void main() {
     setlocale(LC_ALL, "Portuguese");
-    printf("C é \n\"SUPER\" \nfácil! ");
+    printf("C ï¿½ \n\"SUPER\" \nfï¿½cil! ");
 }
